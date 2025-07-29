@@ -1,10 +1,6 @@
 import requests
 import json
 
-ver = "v19.0"
-account = 'act_3843676962540781'
-token = 'EAAO7l8ZC7BysBPIxmKyM2gMdslxf1HAJcRb9H7JO5wm7sgijUCpjLMJBgejEitMZB0eZCsjQlqUeFRGdTMJZB1GTdQvPBPgNS67QYVsMYTLFyjXYqp4B49LgNZB0QYWOO9D3pZCVm2tc2T2IcLaZBdRhq7pVZCGlcnSdM4nISkDrpxHQGlFPbqB5S2ua9iWOX7ImbFplL3jH'
-
 insights = 'campaign_name,adset_name,ad_name,impressions,clicks,reach,spend,conversions,conversion_values'
 url = f"https://graph.facebook.com/{ver}/{account}/insights"
 
